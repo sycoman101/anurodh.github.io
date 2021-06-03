@@ -1,0 +1,138 @@
+.u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 726px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-size: 3.4375rem;
+  width: 337px;
+  margin: 38px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.25rem;
+  width: 670px;
+  margin: 11px auto 0;
+}
+
+.u-section-1 .u-list-1 {
+  margin: 77px auto 60px;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-auto-columns: calc(33.3333% - 6.66667px);
+  grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+  grid-gap: 10px 10px;
+  min-height: 388px;
+}
+
+.u-section-1 .u-image-1 {
+  background-image: url("images/newyork.png");
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 6px 30px 20px 29px;
+}
+
+.u-section-1 .u-text-3 {
+  font-weight: 700;
+  background-image: none;
+  margin: 124px 8px 0 20px;
+}
+
+.u-section-1 .u-image-2 {
+  background-image: url("images/perth.png");
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 6px 30px 20px 29px;
+}
+
+.u-section-1 .u-text-4 {
+  font-weight: 700;
+  background-image: none;
+  margin: 124px 8px 0 20px;
+}
+
+.u-section-1 .u-image-3 {
+  background-image: url("images/melbourne.png");
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 6px 30px 20px 29px;
+}
+
+.u-section-1 .u-text-5 {
+  font-weight: 700;
+  background-image: none;
+  margin: 124px 8px 0 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-list-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-5 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-repeater-1 {
+    grid-auto-columns: calc(50% - 5px);
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-2 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-auto-columns: 100%;
+    grid-template-columns: 100%;
+  }
+}
