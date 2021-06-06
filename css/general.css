@@ -1336,8 +1336,9 @@ a.u-link.u-text-hover-white:hover {
 
 .mid-sec-services .u-text-3 {
 	font-weight: 700;
-	background-image: none;
-	margin: 69px 0 0 9px;
+	font-size: 1.9rem;
+	width: 337px;
+	margin: 38px auto 0;
 }
 
 .mid-sec-services .u-container-layout-2 {
@@ -1404,8 +1405,9 @@ a.u-link.u-text-hover-white:hover {
 
 .mid-sec-portfolio .u-text-3 {
 	font-weight: 700;
-	background-image: none;
-	margin: 124px 8px 0 20px;
+	font-size: 1.9rem;
+	width: 337px;
+	margin: 38px auto 0;
 }
 
 .mid-sec-portfolio .u-container-layout-2 {
