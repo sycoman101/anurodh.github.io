@@ -3,15 +3,126 @@
  *
  * @format
  */
+/*---------------------------fonts---------------------------*/
+@font-face {
+	font-family: 'Montserrat';
+	font-style: italic;
+	font-weight: 100;
+	src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUOjIg1_i6t8kCHKm459WxZqh7q29NNpQ.woff2)
+		format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+		U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+.u-font-montserrat {
+	font-family: 'montserrat';
+}
 /*---------------------------About---------------------------*/
 
 /*________________div [To Horizontal-layout of content]_______________*/
 /*               ___u-content-about___               */
-.u-conetent-about {
-	flex: 0 0 56.66666667%;
-	max-width: 56.66666667%;
+
+.u-cell-left {
+	width: 50%;
+	align-items: left;
+}
+
+.u-cell-right {
+	width: 50%;
+	align-items: right;
 }
 /*---------------------------Contact---------------------------*/
+.mid-sec-about {
+	text-align: center;
+}
+
+/*________________section_______________*/
+/*               ___u-align-center___               */
+/*               ___u-grey-80___               */
+/*________________div_______________*/
+/*________________div_______________*/
+/*               ___u-layout-wrap___               */
+.u-layout-wrap.u-layout-spacing-vertical .u-layout-cell {
+	border-top-width: 0;
+	border-bottom-width: 0;
+}
+.u-layout-wrap.u-layout-spacing-vertical .u-layout {
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 100%;
+}
+.u-expanded-width {
+	width: 100% !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.u-container-style:not([class*='u-align-']) {
+	text-align: left;
+}
+.u-layout-cell:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.u-layout-cell {
+	overflow: visible;
+	background-color: transparent !important;
+	opacity: 1;
+	position: relative;
+	display: flex;
+	background-clip: padding-box;
+	background-origin: padding-box;
+}
+.u-layout-row {
+	flex: 1 1 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	min-height: -webkit-fit-content;
+	min-height: fit-content;
+}
+
+/*---------------------------Contacts---------------------------*/
+/*---------------------------Forms---------------------------*/
+.u-contact-form input[type='text'],
+.u-contact-form select,
+.u-contact-form textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	color: #111111;
+	background-color: grey;
+}
+
+.u-contact-form input[type='submit'] {
+	background-color: #42e9ac;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.u-contact-form input[type='submit']:hover {
+	background-color: #45a049;
+}
+
+.u-contact-form {
+	border-radius: 5px;
+	padding: 20px;
+	margin: auto;
+	width: 50%;
+}
 
 /*---------------------------Home/index---------------------------*/
 /** @format */
