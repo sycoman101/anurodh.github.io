@@ -11450,12 +11450,7 @@ a.pswp__share--download:hover {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.u-gallery.u-layout-carousel .u-carousel-indicators li {
-	opacity: 0.5;
-}
-.u-gallery.u-layout-carousel .u-carousel-indicators li.u-active {
-	opacity: 1;
-}
+
 .u-no-transition *,
 .u-no-transition *:before,
 .u-no-transition *:after {
@@ -11903,9 +11898,7 @@ a.pswp__share--download:hover {
 .u-product {
 	display: flex;
 }
-.u-gallery.u-product-control .u-back-image {
-	object-fit: contain;
-}
+
 .u-product-price {
 	display: table;
 }
